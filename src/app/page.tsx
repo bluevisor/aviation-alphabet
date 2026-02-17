@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 text-center">
+    <main className="flex min-h-screen flex-col items-center justify-center p-6 lg:p-24 text-center">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         {/* Header/Nav placeholder if needed */}
       </div>
@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left gap-8 mt-16">
+      <div className="mb-16 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left gap-4 lg:gap-8 mt-8 lg:mt-16 w-full">
         <Link
           href="/learn"
           className="group rounded-lg border border-neutral-800 px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30"
